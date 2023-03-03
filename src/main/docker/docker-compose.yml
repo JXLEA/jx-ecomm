@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:latest
+    restart: always
+    environment:
+      POSTGRES_USER: developer
+      POSTGRES_PASSWORD: root
+      POSTGRES_DB: jx-ecomm
+      volumes:
+        './data:/var/lib/postgresql/data'
+    ports:
+      - "5432:5432"
