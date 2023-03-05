@@ -2,7 +2,7 @@
 
 This is a lightweight implementation of the general functionality of an e-commerce platform. 
 The current e-commerce application is based on a monolithic architecture within the Entity-control-boundary pattern,
-MVC and Repository(DDD) patterns are also used.
+Repository(DDD), DTO patterns are also used.
 
 This project uses Quarkus, the Supersonic Subatomic Java Frameword in conjunction with:
 
