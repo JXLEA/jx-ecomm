@@ -1,8 +1,6 @@
 package com.ua.jxlea.entity;
 
 
-import com.ua.jxlea.entity.AbstractEntity;
-
 import javax.persistence.PrePersist;
 import javax.persistence.PreUpdate;
 import java.time.Instant;
