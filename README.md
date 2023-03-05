@@ -1,11 +1,10 @@
 # jx-ecomm
 
-This is lightweith, implemention common of E-commerce plaform functionalities. 
-Current E-commerce application based on monolithic architecture within Entity-control-boundary pattern,
-also MVC and Repository(DDD) patterns.
+This is a lightweight implementation of the general functionality of an e-commerce platform. 
+The current e-commerce application is based on a monolithic architecture within the Entity-control-boundary pattern,
+MVC and Repository(DDD) patterns are also used.
 
-This project uses Quarkus, the Supersonic Subatomic Java Frameword
-and:
+This project uses Quarkus, the Supersonic Subatomic Java Frameword in conjunction with:
 
 - Hibernate ORM 
 - Flyway 
